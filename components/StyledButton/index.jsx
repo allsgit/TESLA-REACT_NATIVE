@@ -11,7 +11,7 @@ export default function StyledButton(props) {
   const textColor = type === 'primary' ? 'white' : '#171A20';
   return (
     <View style={styles.container}>
-      <Pressable style={[styles.button, { backgroundColor: backgroundColor }]} onPress={() => console.warn('hey')}>
+      <Pressable style={[styles.button, { backgroundColor: backgroundColor }]} onPress={() => console.warn('patience je serais fonctionnel prochainement')}>
         <Text style={[styles.btnText, { color: textColor }]}>{textOnBtn}</Text>
       </Pressable>
     </View>
